@@ -55,3 +55,14 @@ title("Predicted Rankings for 2022 Tournament");
 xlabel("Rankings");
 ylabel("Players");
 
+% Future developments: 
+% - The new equation will be the average difference in ranking and results
+% per tournament overall
+% - Pseudocode: 
+% avg_diff array = (results - rankings) / # of tourneys 
+% plot the difference
+% new_predict = (avg_diff - new_ranking) 
+% plot new_predict vs. new_ranking
+% Maybe I want to use a deep neural learning framework when we have enough
+% data? 
+
